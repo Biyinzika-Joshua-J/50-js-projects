@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg-image{
+    background-image: url('./hero.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    filter: blur(100px);
+    z-index: -10;
+    position: relative;
+}
+
+.percentage{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 800;
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
